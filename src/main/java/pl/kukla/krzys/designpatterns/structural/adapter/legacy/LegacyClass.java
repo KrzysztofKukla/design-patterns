@@ -1,4 +1,4 @@
-package pl.kukla.krzys.designpatterns.structrural.adapter.legacy;
+package pl.kukla.krzys.designpatterns.structural.adapter.legacy;
 
 import org.apache.commons.lang3.math.NumberUtils;
 
@@ -7,8 +7,9 @@ import org.apache.commons.lang3.math.NumberUtils;
  */
 public class LegacyClass {
 
-    public int otherOperation(String stringValue){
+    public int otherOperation(String stringValue) {
         return NumberUtils.isDigits(stringValue) ?
             Integer.parseInt(stringValue) : 100;
     }
+
 }

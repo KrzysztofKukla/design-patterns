@@ -1,10 +1,10 @@
-package pl.kukla.krzys.designpatterns.structrural.adapter.test;
+package pl.kukla.krzys.designpatterns.structural.adapter.test;
 
 import org.junit.jupiter.api.Test;
-import pl.kukla.krzys.designpatterns.structrural.adapter.Client;
-import pl.kukla.krzys.designpatterns.structrural.adapter.MyServiceImpl;
-import pl.kukla.krzys.designpatterns.structrural.adapter.legacy.LegacyClass;
-import pl.kukla.krzys.designpatterns.structrural.adapter.legacy.LegacyClassAdapter;
+import pl.kukla.krzys.designpatterns.structural.adapter.MyServiceImpl;
+import pl.kukla.krzys.designpatterns.structural.adapter.client.Client;
+import pl.kukla.krzys.designpatterns.structural.adapter.legacy.LegacyClass;
+import pl.kukla.krzys.designpatterns.structural.adapter.legacy.LegacyClassAdapter;
 
 /**
  * @author Krzysztof Kukla

@@ -1,6 +1,6 @@
-package pl.kukla.krzys.designpatterns.structrural.adapter.legacy;
+package pl.kukla.krzys.designpatterns.structural.adapter.legacy;
 
-import pl.kukla.krzys.designpatterns.structrural.adapter.MyService;
+import pl.kukla.krzys.designpatterns.structural.adapter.MyService;
 
 /**
  * @author Krzysztof Kukla
