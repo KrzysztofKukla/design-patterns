@@ -4,6 +4,8 @@ import org.apache.commons.text.StringEscapeUtils;
 
 /**
  * Decorator allows to decorate ( add additional functionality ) to existing code
+ * Decorator always add/changes something from the behavior of original object
+ * Decorator contains only single object vs Composite contains children of objects
  */
 public class HtmlMessageDecorator implements Message {
 
