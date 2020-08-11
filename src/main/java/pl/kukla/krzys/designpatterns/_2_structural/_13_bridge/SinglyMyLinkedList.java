@@ -3,7 +3,7 @@ package pl.kukla.krzys.designpatterns._2_structural._13_bridge;
 /**
  * @author Krzysztof Kukla
  */
-public class SinglyLinkedList<T> implements LinkedList<T> {
+public class SinglyMyLinkedList<T> implements MyLinkedList<T> {
 
     private class Node {
         private Object data;

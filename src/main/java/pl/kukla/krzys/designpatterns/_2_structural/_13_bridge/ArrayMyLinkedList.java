@@ -3,7 +3,7 @@ package pl.kukla.krzys.designpatterns._2_structural._13_bridge;
 /**
  * @author Krzysztof Kukla
  */
-public class ArrayLinkedList<T> implements LinkedList<T> {
+public class ArrayMyLinkedList<T> implements MyLinkedList<T> {
     @Override
     public void addFirst(T t) {
 

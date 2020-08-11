@@ -2,8 +2,8 @@ package pl.kukla.krzys.designpatterns._1_creational._10_objectpool;
 
 /**
  * when creating of objects are costly operations ( takes long time, performance etc.)  like connection external resources, database (BasicDatSource
- * class ), Sockets, JMS, Threads (  * ThreadPoolExecutor class ) and we need many such objects and use object is short duration then we can use
- * Pool like ObjectPoll design pattern
+ * class ), Sockets, JMS, Threads (  * ThreadPoolExecutor class ) and we need many such objects and we want to use object for the short duration only
+ * then we can use Pool like ObjectPoll design pattern
  * ObjectPool allows to cache object in example ConnectionPool, ThreadPoolExecutor etc.
  * we need to provide Thread safe caching of objects in pool
  * next provides methods: to get object from Pool, and release ( zwolnić ) object again to Pool

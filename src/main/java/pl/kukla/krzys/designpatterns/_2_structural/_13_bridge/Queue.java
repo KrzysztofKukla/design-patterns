@@ -7,20 +7,20 @@ public class Queue<T> implements FifoCollection<T> {
 
     //this is bridge to LinkedList class
     //so we can use operations defined in LinkedList from Queue collection
-    private final LinkedList<T> linkedList;
+    private final MyLinkedList<T> myLinkedList;
 
-    public Queue(LinkedList<T> linkedList) {
-        this.linkedList = linkedList;
+    public Queue(MyLinkedList<T> myLinkedList) {
+        this.myLinkedList = myLinkedList;
     }
 
     @Override
     public void offer(T t) {
-        linkedList.addLast(t);
+        myLinkedList.addLast(t);
     }
 
     @Override
     public T poll() {
-        return linkedList.removeFirst();
+        return myLinkedList.removeFirst();
     }
 
 }

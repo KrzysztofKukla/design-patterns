@@ -5,7 +5,7 @@ import org.apache.commons.lang3.math.NumberUtils;
 /**
  * @author Krzysztof Kukla
  */
-public class LegacyClass {
+public class SomeLegacyObject {
 
     public int otherOperation(String stringValue) {
         return NumberUtils.isDigits(stringValue) ?

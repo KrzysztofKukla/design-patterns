@@ -3,7 +3,7 @@ package pl.kukla.krzys.designpatterns._2_structural._13_bridge;
 /**
  * @author Krzysztof Kukla
  */
-public interface LinkedList<T> {
+public interface MyLinkedList<T> {
     void addFirst(T t);
 
     T removeFirst();
