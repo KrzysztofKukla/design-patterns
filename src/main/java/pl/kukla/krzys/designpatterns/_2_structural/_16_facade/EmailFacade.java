@@ -12,12 +12,14 @@ import pl.kukla.krzys.designpatterns._2_structural._16_facade.factory.TemplateFa
 
 /**
  * Facade provides simple methods for client to use
+ * Client should interacts only with one facade object/method, not with many coupled objects
  * is a great help especially for legacy system
  * Facade allows to integrate code which interacts with large number of classes, interfaces of subsystem
  * Facade allows to decouple those tightly coupled classes and interfaces
  * It provides very simple interface for our subsystem/legacy system
  * that facade/interface can by easily used by client which does not have to know what is called inside ( in inner classes )
  * Facade provide simple method definition which calls many other services/classes inside
+ * Facade determines the overall use cases that the subsystem is used for
  */
 public class EmailFacade {
 

@@ -3,10 +3,16 @@ package pl.kukla.krzys.designpatterns._2_structural._18_proxy;
 import javafx.geometry.Point2D;
 
 /**
+ * Similar to decorator
+ * for Decorator we are adding additional functionality
+ * for Proxy we wrapper object with any additional feature like lazy loading, access control etc.
  * Proxy is placeholder ( symbol zastepczy ), surrogate ( zastępstwo ) for real object
  * Proxy work around ( obchodzi ) real object
  * There are many reasons to use proxy - the most commons are
- * - protection proxy - security - control access to original's operations
+ * - lazy loading,
+ * - access control
+ * - auditing
+ * - protection proxy - security - control access to original's operations - control which operation can be called on the real object and when
  * - remote proxy - provides local representation of remote object
  * - virtual proxy - delay of construction of object ( performance issue - construction is very expensive and takes long time ) until this is
  * really necessary
