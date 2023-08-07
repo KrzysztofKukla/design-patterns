@@ -10,6 +10,9 @@ import pl.kukla.krzys.designpatterns._2_structural._16_facade.factory.Stationary
 import pl.kukla.krzys.designpatterns._2_structural._16_facade.factory.StationaryFactoryClient;
 import pl.kukla.krzys.designpatterns._2_structural._16_facade.factory.TemplateFactory;
 
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * Facade provides simple methods for client to use
  * Client should interacts only with one facade object/method, not with many coupled objects

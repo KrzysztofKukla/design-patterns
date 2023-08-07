@@ -8,7 +8,7 @@ import pl.kukla.krzys.designpatterns._3_behavioral._31_null_object.null_object_p
  * typically use 'null' as an value, so alternatively we can use NullObject pattern design
  * NullObject pattern indicates an absence of Object, is similar to Proxy, but in Proxy in same place we use the real object
  * using this pattern we don't have to check null value
- * NullObject does do nothing and stores nothing and can return any default value like 0 or true etc. without any implementation
+ * NullObject does do nothing and stores nothing and can return any default value like 0, true etc. without any implementation
  * so if and object or reference is null then we will do nothing - no side effect calling method on NullObject
  * NullObject pattern ensures do nothing when dealing with null object
  */

@@ -9,9 +9,11 @@ import java.util.List;
  */
 @Slf4j
 public class ComplianceReportService implements ReportService {
+
     @Override
     public void generate(List<String> properties) {
         log.info("Generating Compliance report");
+
     }
 
 }

@@ -3,7 +3,7 @@ package pl.kukla.krzys.designpatterns._1_creational._10_objectpool;
 import javafx.geometry.Point2D;
 
 //we want to pool this object, because every time when we want to create Bitmap object is going to trigger FileIO
-// and it going to block and memory allocation and store all file content
+// and it is going to block and memory allocation and store all file content
 // so we don't want to do all this costly operations each time
 public class Bitmap implements Image {
     private Point2D location;

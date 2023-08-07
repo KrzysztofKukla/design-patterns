@@ -6,6 +6,8 @@ import pl.kukla.krzys.designpatterns._2_structural._16_facade.email.Order;
 import pl.kukla.krzys.designpatterns._2_structural._16_facade.email.TemplateType;
 import pl.kukla.krzys.designpatterns._2_structural._16_facade.factory.HalloweenStationaryFactory;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * @author Krzysztof Kukla
  */

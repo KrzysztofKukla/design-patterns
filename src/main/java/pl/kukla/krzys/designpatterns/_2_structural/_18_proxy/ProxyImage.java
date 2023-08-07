@@ -5,7 +5,7 @@ import javafx.geometry.Point2D;
 /**
  * Similar to decorator
  * for Decorator we are adding additional functionality
- * for Proxy we wrapper object with any additional feature like lazy loading, access control etc.
+ * for Proxy we wrap object with any additional feature like lazy loading, access control etc.
  * Proxy is placeholder ( symbol zastepczy ), surrogate ( zastępstwo ) for real object
  * Proxy work around ( obchodzi ) real object
  * There are many reasons to use proxy - the most commons are

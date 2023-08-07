@@ -9,7 +9,7 @@ import java.time.LocalDate;
 /**
  * when code which sends the request to other code which handles that request - that causes tightly coupling
  * ChainOfResponsibility pattern tries to reduce that coupling by giving more than one object change to process that request
- * we need to crate objects which are chained together
+ * we need to create objects which are chained together
  * so the chain is created by one object knowing which is the next object is in the chain
  * and that object knows which is the next one etc.
  * so our code does not which object is providing the functionality, next object provides functionality, then again next etc.

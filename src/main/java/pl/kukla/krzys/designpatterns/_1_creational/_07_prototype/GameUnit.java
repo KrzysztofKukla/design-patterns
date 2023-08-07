@@ -4,9 +4,8 @@ import javafx.geometry.Point3D;
 import lombok.Getter;
 
 /**
- * we can use Prototype pattern when we have complex Object ( muliple fields ) and creating this object is costly operation ( performance,
- * calculation, external
- * resources etc. ) which are not in our control
+ * we can use Prototype pattern when we have complex Object ( multiple fields ), but creating such object is costly operation ( performance,
+ * calculation, external resources etc. ) which are not in our control
  * and to create multiple instances we use single object or existing object as our prototype
  * Prototype allows to make copies of existing instances and saves us from creating these instances from scratch
  * in clone operation we done deep copy or shallow ( plytki ) copy

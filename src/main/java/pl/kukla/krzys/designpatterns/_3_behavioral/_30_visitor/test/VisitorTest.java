@@ -10,10 +10,11 @@ import pl.kukla.krzys.designpatterns._3_behavioral._30_visitor.visitor.PrintVisi
 import pl.kukla.krzys.designpatterns._3_behavioral._30_visitor.visitor.Visitor;
 
 /**
- * Visitor allows to define new operations that can be perform on object without changing the class definition of that Object
+ * Visitor allows to add new operations ( methods ) that can be perform on object without changing the class definition of that Object
+ * This pattern usually is used when we dont want to change our domain, but we have to add new functionality/methods ( only for specific domain, not for whole structure )
  * Visitor object is going to visit all the objects in our application or module
  * Visitor is going to navigate ( traverse ) that object structure and is going to visit each node in that structure
- * each time when our Visitor visits a particular node then object in that node is going to call specific method on Visitor and pass itesf as na
+ * each time when our Visitor visits a particular node then object in that node is going to call specific method on Visitor and pass itself as na
  * argument
  * so Visitor object has method specified for particular class
  * all objects of that class know about that specific method and those objects are going to call specified method as pass themselves as an argument

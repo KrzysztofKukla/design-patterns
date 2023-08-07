@@ -10,6 +10,7 @@ import java.util.function.Supplier;
 /**
  * @author Krzysztof Kukla
  */
+
 public class ObjectPoolTest {
     private static final ObjectPool<Bitmap> BITMAP_OBJECT_POOL = new ObjectPool<>(bitmapSupplier(), 5);
 

@@ -14,7 +14,7 @@ public class ObjectPool<T extends Poolable> {
 
     //object in memory cache, should be thread safe
     //can be other structure data as well
-    private BlockingQueue<T> availablePool;
+    private final BlockingQueue<T> availablePool;
 
     public ObjectPool(Supplier<T> creator, int count) {
         availablePool = new LinkedBlockingQueue<>();
